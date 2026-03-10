@@ -8,11 +8,11 @@ def main():
         while True:
             if keyboard.is_pressed('['):
 
-                block = player_get_targeted_block() #gets the block you're looking at
-                entity = player_get_targeted_entity() #gets the entity you're looking at
+                block = player_get_targeted_block() 
+                entity = player_get_targeted_entity() 
 
-                print('BLOCK:\n',block, '\nENTITY:\n', entity,'\n--------------------------') #prints that info
-                time.sleep(0.5) #delay so no multiple detections per button press
+                print('BLOCK:\n',block, '\nENTITY:\n', entity,'\n--------------------------') #printing block and entity info that youre looking at
+                time.sleep(0.5) #delay so there is no multiple detections per button press
             
             if keyboard.is_pressed(']'): #button to stop script
                 break
