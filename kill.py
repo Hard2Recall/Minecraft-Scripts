@@ -3,7 +3,7 @@ import math
 import time
 import keyboard
 
-max_hit_range = 3 #maximum hitrange in mc is 3 blocks
+max_hit_range = 4 #maximum hitrange in mc is 3 blocks
 
 def attack():
     entity = player_get_targeted_entity() #checks if we're looking at entity
@@ -14,9 +14,9 @@ def attack():
     distance = math.sqrt((Ex - Px)**2 + (Ey - Py)**2 + (Ez - Pz)**2) #math to check how much distane is between us
     if distance <= max_hit_range:   #
         player_press_attack(True)   #
-        time.sleep(0.03)            # if entity is in hit range (3 blocks) press left click
+        time.sleep(0.02)            # if entity is in hit range (3 blocks) press left click
         player_press_attack(False)  #
-        time.sleep(0.02)            #
+        time.sleep(0.01)            #
 
 if __name__ == "__main__":
     print("running")
