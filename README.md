@@ -1,5 +1,7 @@
 # This is a minescript folder with 2 of my scripts.
 
+# (THIS IS CONSIDERED CHEATING AND IT WILL GET YOU BANNED IF YOU USE IT ON SERVERS!!!) 
+
 
 **INITIAL SETUP**:  
 To run this script you'll need to download Minescript Mod, Fabric API, and Fabric Launcher. Add all of these to the `mod` folder found in `.minecraft` within the `%APPDATA%` directory. If you don't have a `mod` folder, create a new one and add them there. Make sure you launch the game at least once before the next step to initialize the mods properly.
