@@ -11,11 +11,12 @@ Within the `.minecraft` folder find the `minescript` folder, add `getinfo.py` an
   
 **DO NOT TOUCH `system` FOLDER!!!**
 
-USAGE:
+**USAGE**:
 
 `getinfo.py`  
 in game chat type: \getinfo -   
-This will prompt you in game to use "[" key to get information about an entity and the block ID your crosshair is currently on. Use "]" to stop the script.
+This will prompt you in game to use "[" key to get information about an entity and the block ID your crosshair is currently on. 
+To stop the script use "]".
 
 `kill.py`   
 in game chat type: \kill -  
