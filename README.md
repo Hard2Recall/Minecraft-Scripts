@@ -6,7 +6,7 @@ To run this script you'll need to download Minescript Mod, Fabric API, and Fabri
 
 Also you will need to download Python. After downloading find the file path to the `python.exe`, copy and paste that path into `config.txt`
 
-ADDING THE SCRIPT:  
+**ADDING THE SCRIPT**:  
 Within the `.minecraft` folder find the `minescript` folder, add `getinfo.py` and `kill.py` to that folder.   
   
 **DO NOT TOUCH `system` FOLDER!!!**
