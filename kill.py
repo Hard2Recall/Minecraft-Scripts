@@ -15,7 +15,7 @@ def attack():
     distance = math.sqrt((Ex - Px)**2 + (Ey - Py)**2 + (Ez - Pz)**2) #math to check how much distane is between us
     if distance <= max_hit_range:   #
         player_press_attack(True)   #
-        time.sleep(0.02)            # if entity is in hit range (3 blocks) press left click
+        time.sleep(0.02)            # if entity is in hit range (4 blocks) press left click
         player_press_attack(False)  #
         time.sleep(0.01)            #
 
