@@ -1,7 +1,10 @@
+#libraries needed
 from minescript import *
 import keyboard
 import time
 
+
+#main functions
 def main():
     print("Press [ to get block and enity type.\nPress ] to exit.")
     try:
