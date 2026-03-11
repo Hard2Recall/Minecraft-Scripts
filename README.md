@@ -4,7 +4,7 @@
 
 
 **INITIAL SETUP**:  
-To run this script you'll need to download Minescript Mod, Fabric API, and Fabric Launcher. Add all of these to the `mod` folder found in `.minecraft` within the `%APPDATA%` directory. If you don't have a `mod` folder, create a new one and add them there. Make sure you launch the game at least once before the next step to initialize the mods properly.
+To run this script you'll need to download Minescript Mod, Fabric API, and Fabric Mod Loader. Add all of these to the `mod` folder found in `.minecraft` within the `%APPDATA%` directory. If you don't have a `mod` folder, create a new one and add them there. Make sure you launch the game at least once before the next step to initialize the mods properly.
 
 Also you will need to download Python. After downloading find the file path to the `python.exe`, copy and paste that path into `config.txt`
 
