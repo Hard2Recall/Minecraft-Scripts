@@ -1,12 +1,12 @@
-# This is a minescript folder with 2 of my scripts.
+# This is a minescript folder with 2 scripts of my own creation.
 
 # (THIS IS CONSIDERED CHEATING AND IT WILL GET YOU BANNED IF YOU USE IT ON SERVERS!!!) 
 
 
 **INITIAL SETUP**:  
-To run this script you'll need to download Minescript Mod, Fabric API, and Fabric Mod Loader. Add all of these to the `mod` folder found in `.minecraft` within the `%APPDATA%` directory. If you don't have a `mod` folder, create a new one and add them there. Make sure you launch the game at least once before the next step to initialize the mods properly.
+To run this script you'll need to download Minescript Mod, Fabric API, and Fabric Mod Loader. Add all of these to the `mod` folder found in `.minecraft` within the `%APPDATA%` directory. If you don't have a `mod` folder, create a new one and add them there. Make sure you launch the game at least once before the next step requires to initialize the mods properly.
 
-Also you will need to download Python. After downloading find the file path to the `python.exe`, copy and paste that path into `config.txt`
+From proper installation you will need to download Python. After downloading find the file path to the `python.exe`, copy and paste that path into `config.txt`
 
 **ADDING THE SCRIPT**:  
 Within the `.minecraft` folder find the `minescript` folder, add `getinfo.py` and `kill.py` to that folder.   
